@@ -1,48 +1,248 @@
-Privacy Policy – Clinical Repertory Pro (Atlorep)
-Last Updated: November 23, 2025
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<title>Privacy Policy – EUREKA</title>
 
-Clinical Repertory Pro (also known as “Atlorep”) is a medical educational application developed and maintained by Nideesh Srihass M K S. This privacy policy explains how we collect, use, and protect the personal information of our users.
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;600&display=swap" rel="stylesheet">
 
-1. Developer Information
-Developer: Nideesh Srihass M K S
-Official Email: srihass@camoratechnologies.com
-Website: https://camoratechnologies.com/pages/index
-Address:
-Dr. Seethapathy Nagar South Extn,
-Velachery, Chennai – 600042,
-Tamil Nadu, India.
+<style>
+/* ===========================
+   RESET & BASE
+=========================== */
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
 
-2. Information We Collect
-Login information: Username and password (stored safely and not shared).
-Saved case data: Topics, symptoms, and notes you save inside the app (stored only on your device).
-Crash & performance data: Automatically collected to improve the app.
-3. What We Do Not Collect
-No Aadhaar / PAN / ID numbers
-No photos, contacts, SMS, call logs, or location
-No real patient medical records
-No financial information
-4. How We Use Your Information
-To manage login and membership access
-To generate repertory analysis
-To improve performance and fix issues
-To provide customer support
-5. Payments
-All membership payments are processed exclusively through Google Play Billing. We do not collect or store any card, UPI, or banking information.
+html, body {
+  margin: 0;
+  min-height: 100%;
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient(circle at top, #0b1228, #050509 70%);
+  color: #ffffff;
+}
 
-6. Data Security
-We implement strong security measures including local encryption, obfuscated code, and secure access control. No user data is transmitted to external servers unless explicitly required.
+/* ===========================
+   PAGE LAYOUT
+=========================== */
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 28px 18px 64px;
+}
 
-7. Children’s Privacy
-This app is intended for users aged 18 and above. We do not knowingly collect data from minors.
+/* ===========================
+   HEADER
+=========================== */
+.header {
+  text-align: center;
+  margin-bottom: 28px;
+}
 
-8. Third-Party Services
-We only use trusted Google Play services for crash reporting, analytics, and payments.
+.header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 26px;
+  letter-spacing: 3px;
+  margin-bottom: 6px;
+}
 
-9. Your Rights
-You may request clarification or deletion of local data at any time by contacting us at srihass@camoratechnologies.com.
+.header p {
+  font-size: 13px;
+  opacity: 0.65;
+}
 
-10. Contact Us
-If you have any questions regarding this privacy policy, please contact:
-Nideesh Srihass M K S
-Email: srihass@camoratechnologies.com
-Chennai, Tamil Nadu, India. change this according to eureka and give me complete code 
+/* ===========================
+   CARD
+=========================== */
+.card {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+  border-radius: 24px;
+  padding: 26px 22px;
+  box-shadow: 0 30px 90px rgba(0,0,0,0.75);
+}
+
+/* ===========================
+   SECTIONS
+=========================== */
+.section {
+  margin-bottom: 26px;
+}
+
+.section h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: #00f2ff;
+}
+
+.section p, .section li {
+  font-size: 14px;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+.section ul {
+  padding-left: 18px;
+  margin: 10px 0;
+}
+
+.section li {
+  margin-bottom: 6px;
+}
+
+/* ===========================
+   INFO BOX
+=========================== */
+.info-box {
+  background: linear-gradient(
+    135deg,
+    rgba(0,242,255,0.12),
+    rgba(124,92,255,0.12)
+  );
+  border: 1px solid rgba(255,255,255,0.16);
+  border-radius: 18px;
+  padding: 16px;
+  margin-top: 12px;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+.footer {
+  text-align: center;
+  margin-top: 32px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Privacy Policy</h1>
+    <p>EUREKA • Last Updated: November 23, 2025</p>
+  </div>
+
+  <!-- CARD -->
+  <div class="card">
+
+    <div class="section">
+      <p>
+        EUREKA is an educational and skill-based gaming application developed and
+        maintained by <strong>Nideesh Srihass M K S</strong>. This Privacy Policy
+        explains how we collect, use, and protect user information when you use
+        the EUREKA application.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>1. Developer Information</h2>
+      <div class="info-box">
+        <p><strong>Developer:</strong> Nideesh Srihass M K S</p>
+        <p><strong>Email:</strong> srihass@camoratechnologies.com</p>
+        <p><strong>Website:</strong> https://camoratechnologies.com/pages/index</p>
+        <p>
+          <strong>Address:</strong><br>
+          Dr. Seethapathy Nagar South Extension,<br>
+          Velachery, Chennai – 600042,<br>
+          Tamil Nadu, India.
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>2. Information We Collect</h2>
+      <ul>
+        <li>Username and profile avatar</li>
+        <li>Email address (for authentication)</li>
+        <li>Game progress, scores, levels, and achievements</li>
+        <li>Crash reports and app performance analytics</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>3. Information We Do NOT Collect</h2>
+      <ul>
+        <li>No Aadhaar, PAN, or government ID</li>
+        <li>No photos, videos, contacts, SMS, or call logs</li>
+        <li>No precise location or GPS tracking</li>
+        <li>No banking, card, or payment data</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>4. How We Use Your Information</h2>
+      <ul>
+        <li>Account creation and profile management</li>
+        <li>Gameplay functionality and progression</li>
+        <li>Leaderboards and rankings</li>
+        <li>Bug fixes and performance improvements</li>
+        <li>Customer support</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>5. Payments</h2>
+      <p>
+        All in-app purchases and memberships are processed exclusively through
+        <strong>Google Play Billing</strong>. We do not collect or store any
+        payment or financial information.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>6. Data Security</h2>
+      <p>
+        We use secure authentication, encrypted storage where applicable,
+        obfuscated code, and restricted access controls to protect user data.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>7. Children’s Privacy</h2>
+      <p>
+        EUREKA is intended for users aged <strong>13 years and above</strong>.
+        We do not knowingly collect data from children under 13.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>8. Third-Party Services</h2>
+      <ul>
+        <li>Google Firebase (authentication, analytics, crash reporting)</li>
+        <li>Google Play Billing (payments)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>9. Contact Us</h2>
+      <p>
+        If you have any questions or concerns regarding this Privacy Policy,
+        please contact:<br><br>
+        <strong>Nideesh Srihass M K S</strong><br>
+        Email: srihass@camoratechnologies.com<br>
+        Chennai, Tamil Nadu, India.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    © 2025 EUREKA. All rights reserved.
+  </div>
+
+</div>
+
+</body>
+</html>
